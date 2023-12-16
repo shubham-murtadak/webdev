@@ -1,0 +1,48 @@
+
+seo :->
+->search engine optimization 
+->how browzer give preference to result pages
+
+
+core web vitals:
+
+1.cls 
+->cummulative layout shift
+->keep it low as possible
+->how much page shift while loading is called cls
+
+
+2.lcp
+->largest contextual paint
+->how much time biggest element on page take to load is lcp
+->100 ms or less according to google
+
+3.fid
+->first input delay
+->if user clicks on first element how much time it takes 
+
+
+lighhouse report
+->in inspect
+->provide report to tell which things we should improve in html page
+
+
+seo elements:
+
+1.title
+->helps to rank content
+
+2.meta tags
+->it comes below title on browser in search result
+->meta descrption 
+->browser may generate it from content
+
+
+
+
+
+
+
+
+
+
