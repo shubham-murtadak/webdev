@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS selctors</title>
+  <style>
+    /* 1.elment selector */
+    div {
+      /* background-color:red; */
+    }
+
+    /* 2.class selector */
+    .red {
+      background-color: yellow;
+    }
+
+    /* 3.id selector */
+    #yellow {
+      background-color: pink;
+    }
+
+    /* 4.child Selector */
+    div>p {
+      background-color: brown;
+    }
+
+    /* 5.descendent selector */
+
+    span p {
+      color: blue;
+      background-color: pink;
+    }
+
+    /* 6.universal selector */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* 7.pseudo selectors */
+    a:visited {
+      color: yellow;
+    }
+
+    a:link {
+      color: green;
+    }
+
+    a:active {
+      background-color: red;
+    }
+
+    a:hover {
+      background-color: pink;
+    }
+
+    p:first-child {
+      background-color: aqua;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="red">
+    I am a div
+  </div>
+
+  <div id="yellow">
+    I am another div
+  </div>
+
+  <div>
+    <p>Hey i m third div ! </p>
+  </div>
+
+  <span>
+    <article>
+      <p>hey i am descendent para so use descendent selector </p>
+    </article>
+  </span>
+  <br><br>
+
+  <a href="http://www.google.com">Go to google</a>
+  <a href="htttp://www.facebook.com">Go to Facebook</a>
+  <br><br>
+  <main class="one">
+    <p>I am first child para</p>
+    <p>I am second child para</p>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+Ways to Add css to HTML:
+
+There are 3 ways to add css to HTML
+
+1.INLINE css
+
+This is used in an HTML page using style attributes
+
+
+
+2.Internal css
+ 
+
+it means to add a style tag and place the HTML pages's style withing it
+
+
+
+
+
+3.External css
+
+it means to create a .css file and place all your style inside that .css file

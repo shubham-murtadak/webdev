@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box model</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .box{
+      background-color: aqua;
+      color:red;
+    }
+    .box1{
+      color:yellow;
+      padding:30px;
+      margin:25px;
+      border:solid blue 5px;
+      width:400px;
+      height:200px;
+      box-sizing:border-box;
+      /* ye css devta ye jo height me tumhe de raha hun ye
+      (content+padding+border) inke liye hai naki content ke akele ke liye */
+    }
+    .box2{
+      color:red;
+      padding:30px;
+      margin:25px;
+      border:solid black 5px;
+      width:400px;
+      height:200px;
+      box-sizing:border-box;
+    }
+    /* margin collapse concept:  
+    agar 2 element ki margin collpase horhi hain to jo bhi maximum margin hai wo ek bar lagegi
+    ex- 35,25 ->35 lagegi
+    
+    */
+
+  </style>
+</head>
+<body>
+  <div class="box box1">I am a Box</div>
+
+  <div class="box box2">I am box2</div>
+  
+
+
+  
+</body>
+</html>
