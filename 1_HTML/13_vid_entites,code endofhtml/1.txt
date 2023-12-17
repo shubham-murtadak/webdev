@@ -1,0 +1,13 @@
+html entites :
+
+used to wrote such things who resembles with html tag syntax
+
+ex -<p><p>  html consider it as paragrap not text
+
+&lt;p&gt;&lt;/p&gt;== <p></p>
+
+
+absolute html tags:
+1.font
+2.ceter
+3.u
