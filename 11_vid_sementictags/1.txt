@@ -1,0 +1,27 @@
+Benifits:
+
+Using HTML's sementic tags can greately benifit both your websites SEO and the maintainability of your code.
+
+
+They offer a way of structure your HTML in a meaningful manner, making your website more accessible and easier to understand
+
+
+<header>
+<nav>
+<article>
+<section>
+<aside>
+<footer>
+<figure>
+<main>
+<time>
+
+<header>: Defines a header for a document or a section.
+<nav>: Represents a navigation menu.
+<article>: Defines an independent, self-contained content that can be reused and distributed.
+<section>: Represents a section of a document, typically with a heading.
+<aside>: Defines content that is tangentially related to the content around it.
+<footer>: Represents a footer for a section or a page.
+<figure>: Represents any content that is referenced from the  main content, such as images, diagrams, code snippets, etc.
+<main>: Specifies the main content of a document.
+<time>: Represents a specific period in time or a range of time

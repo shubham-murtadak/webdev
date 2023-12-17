@@ -1,0 +1,17 @@
+
+what is id :->
+
+An ID is an attribute ,a unique identifier assigned to only one HTML element within a page .
+
+it is often used for unique styling and javascript mainpulation
+
+
+what is class :->
+
+.The class attirbute lets you give the same name to multiple HTML Elements
+
+.That way you can easily change their look or behaviour all at once .
+
+.classes are not unique and can be assigned to multiple Elements
+
+.They are generally used for applying the same styles or behaviours to a group of Elements
