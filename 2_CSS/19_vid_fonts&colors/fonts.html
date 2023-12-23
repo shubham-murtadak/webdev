@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fonts</title>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@500&family=Roboto:wght@400;500;700&display=swap');
+
+    h1 {
+      font-family: Poppins,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size:40px;
+      line-height: 40px;
+
+
+    }
+
+    p {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline;
+      /*overlined*/
+      line-height: 40px;   /*adds height bw lines*/
+      /* letter-spacing: 20px; adds space bw letters */
+
+    }
+    h2{
+      text-transform: uppercase;/*lowercase,capitalize*/
+      text-decoration:underline;
+      text-decoration-color:red;
+      /* text-decoration-style:dotted; */
+      /* text-decoration-thickness: 10px; */
+      text-indent:50px;
+      text-align: center;
+    }
+    .lorem{
+      border:2px solid red;
+      width:40px;
+      text-overflow: clip;  /*normal*/
+      /* text-overflow: ellipsis; ....*/
+      overflow: hidden;
+      /* word-break: break-all;  breaks words at end*/
+
+    }
+  </style>
+  <!-- https://codepen.io/web-dot-dev/pen/yLojraG -->
+</head>
+
+<body>
+
+  <div>
+    <h1>Fonts</h1>
+    <h2>Font testing </h2>
+    <p>This is Tutorial on Font</p>
+    <P>This is SECOND text</P>
+
+    <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque asperiores minima at. Dolorum et consectetur qui quia, id cumque cupiditate non a, incidunt necessitatibus eaque.</p>
+
+  </div>
+</body>
+
+</html>
