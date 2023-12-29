@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sizing</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    html{
+      font-size:10px;
+    }
+    .box{
+      box-sizing:border-box;
+      border:2px solid black;
+      /* width:2048px; */
+      width:100vw;
+      background-color: aquamarine;
+      margin:auto;
+    }
+    .box1{
+      box-sizing:border-box;
+      border:2px solid black;
+      /* width:2048px;   it is inline element so cant apply width */
+      width:80vw;
+
+      margin:auto;
+      background-color: aquamarine;
+      margin-top:30px;
+      margin-bottom:20px;
+      font-size:3rem;
+    }
+    .container{
+      box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+    }
+    .container p{
+      font-size:2em;
+    }
+    .container > div{
+            font-size: 2em; 
+            border: 2px solid red;
+            width: 50%;
+        }
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+    
+
+
+  </style>
+</head>
+<body>
+  
+  <div class="box">
+    This is a box
+  </div>
+  <div class="box1">
+    This is second box
+  </div>
+
+  <div class="container">
+    <div>   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt impedit commodi labore. Delectus saepe eum eaque et repellendus, maxime, architecto minus provident earum voluptatem sit mollitia ratione suscipit autem dolor repellat. Nostrum modi, culpa natus commodi non minus eius, explicabo molestias, fugiat maiores accusantium cum?</div>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore sunt quam unde, eveniet odit maxime placeat non sed rerum veniam enim tenetur a similique?</div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus fuga exercitationem sapiente, repellendus, unde quas ducimus modi dolor non quia voluptas asperiores voluptatem? Quo, tempore?
+    </div>
+ 
+  </div>
+</body>
+</html>

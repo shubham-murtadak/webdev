@@ -1,0 +1,43 @@
+
+1.pixel-universal unit but its static
+
+2.vw -viewport width 
+     -apply width according to viewport
+     -responsive
+  vh-viewport height
+     -apply height according to viewport
+     -responsive
+
+3.em-
+    -by inheriting that much size was gonna get that time 
+    ex-2em ->2* inherited size
+
+
+4.rem- (root elemnt)
+    -size which gonna get by root element that much time 
+    -ex-2rem =2*size of root element
+    -root element-html
+
+
+this 4 are most commenly used 
+
+vmin- 100(min of height or width)vmin
+
+vmax-100 (max of height or width)vmax
+
+
+min -height: (means less and less this much height must be their and it will increase if we try to add more content)
+
+
+max-height :max to max height element can take
+
+
+
+
+%unit :
+ width:50% means parent ki 50%
+
+
+
+
+  

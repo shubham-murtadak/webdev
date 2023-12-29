@@ -1,0 +1,27 @@
+what if 1 element is style through 2 way
+so which style decided  is decided through specificity
+
+
+
+
+cascade algorithm:
+
+1.position & order of appearence:
+      The order in which your css rules appears
+      if selector of same type
+
+2.specificity:
+      which selector which is more specific 
+      inline selector(1000)>id selector(100)>class or attribute(10)>element selector(1)>universal selector(*)(0)
+
+3.Origin:
+      The order in which css appears 
+
+4.importance:
+        jaha importance laga diya wo sabko overwrite karega
+
+
+use only specific styles that u r sure 
+try to avoid inline css
+
+  

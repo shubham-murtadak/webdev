@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>specificity</title>
+  <style>
+    *{
+      color:green;
+    }
+    .yellow{
+      color:yellow;
+    }
+    .red{
+      color:red;
+    }
+    .cpurple{
+      color:purple;
+    }
+    [data-x=a]{  /*attribute selector*/
+      color:pink;
+    }
+      /* The Specificity of this selector is :1+10+10+10+10=41 */
+    a.harryclass.rohan-class[href]:hover{
+      color:blueviolet;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="yellow red cpurple" data-x="a">CSS SPECIFICITY</h1>
+  
+</body>
+</html>
